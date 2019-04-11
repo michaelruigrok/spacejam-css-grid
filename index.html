@@ -25,6 +25,12 @@
 			<img class="souvenirs" src="img/p-souvenirs.gif" alt="Stellar Souvenirs"/>
 			<img class="studio-store" src="img/p-studiostore.gif" alt="Warner Studio Store"/>
 		</main>
+		<button type="button" id="ratio-button">Toggle faithful width</button>
+		<script>
+			var button = document.getElementById("ratio-button");
+			var loop = document.querySelector(".jam-loop");
+			button.addEventListener("click", function(e) { loop.classList.toggle("loop-ratiod"); });
+		</script>
 		<div id="starscape">
 			<script src="starscape.js"></script>
 			<script type="text/javascript">

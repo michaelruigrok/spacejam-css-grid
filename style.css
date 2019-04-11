@@ -35,6 +35,17 @@ canvas {
     min-height: 66vmin;
 }
 
+#ratio-button {
+    position: absolute;
+    opacity: 0.2;
+    right: 0;
+    bottom: 0;
+}
+
+#ratio-button:hover {
+    opacity: 0.75;
+}
+
 .jam-central {
     grid-column: 3 / 5;
     grid-row: 1 / 2;
