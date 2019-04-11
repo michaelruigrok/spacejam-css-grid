@@ -28,8 +28,11 @@ canvas {
     display: grid;
 }
 
-.jam-loop > * {
-    width: content-min;
+.loop-ratiod {
+    width: 50vmax;
+    height: 44vmax;
+    min-width: 75vmin;
+    min-height: 66vmin;
 }
 
 .jam-central {
@@ -95,6 +98,7 @@ canvas {
     grid-column: 2 / 3;
     grid-row: 4 / 6;
     justify-self: end;
+    align-self: center;
 }
 
 .behind-the-jam {
