@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url("img/bg_stars.gif");
+    height: 100vh;
+    display: flex; /*So contents can vertically align*/
+}
+
+#starscape {
+    /* put in background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+canvas {
+    display: block
+}
+
+.jam-loop {
+    width: 500px;
+    margin: auto;
+    display: grid;
+}
+
+.jam-loop > * {
+    width: content-min;
+}
+
+.jam-central {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    padding: 1em;
+    justify-self: center;
+    align-self: center;
+}
+
+.jam-logo {
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.bball {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.jump {
+    grid-column: 7 / 8;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+
+.junior {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    align-self: end;
+    justify-self: end;
+}
+
+.lineup {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+
+.lunar-tunes {
+    grid-column: 6 / 8;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.press-box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    justify-self: end;
+    align-self: end;
+}
+
+.sitemap {
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+    justify-self: center;
+}
+
+.souvenirs {
+    grid-column: 2 / 3;
+    grid-row: 4 / 6;
+    justify-self: end;
+}
+
+.behind-the-jam {
+    grid-column: 5 / 6;
+    grid-row: 4 / 7;
+    align-self: center;
+    justify-self: center;
+}
+
+.studio-store {
+    grid-column: 6 / 8;
+    grid-row: 3 / 6;
+    align-self: center;
+    justify-self: center;
+}
