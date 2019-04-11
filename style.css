@@ -29,8 +29,8 @@ canvas {
 }
 
 .loop-ratiod {
-    width: 50vmax;
-    height: 44vmax;
+    width: 50vmin;
+    height: 44vmin;
     min-width: 75vmin;
     min-height: 66vmin;
 }
